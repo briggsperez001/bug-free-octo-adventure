@@ -1,0 +1,128 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
+
+/* Cards Section */
+.cards-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.cards-section h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 15px 0;
+  color: #2c3e50;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* About, Mission, Vision Sections */
+.about-section,
+.mission-section,
+.vision-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-section {
+  background-color: #ecf0f1;
+}
+
+.mission-section {
+  background-color: #fefefe;
+}
+
+.vision-section {
+  background-color: #ecf0f1;
+}
+
+section h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+section p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
